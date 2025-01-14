@@ -97,3 +97,4 @@ right(180)
 forward(40)
 
 exitonclick()
+
