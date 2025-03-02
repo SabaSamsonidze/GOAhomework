@@ -12,14 +12,23 @@ for i in name:
 
 # 3 დავალება 
 
+count = 0
 correct_password = "Pass123"
 password_guess = input("Please input a password: ")
 while password_guess != correct_password:
     password_guess = input("wrong password try again: ")
+    count += 1
+    if count == 3:
+        break
 
-print("Correct password")
 
+# 4 დავალება
 
+str1 = input("enter a string: ")
+res = ""
+for i in str1:
+    res = i + res
+print(res)
 
 
 
