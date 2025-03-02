@@ -22,17 +22,6 @@ while password_guess != correct_password:
         break
 
 
-# 4 დავალება
-
-str1 = input("enter a string: ")
-res = ""
-for i in str1:
-    res = i + res
-print(res)
-
-
-
-
 
 
 

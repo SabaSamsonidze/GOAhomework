@@ -1,22 +1,22 @@
 # 1 დავალება
 
-# num1 = int(input("Enter number here: "))
-# count = 0
+num1 = int(input("Enter number here: "))
+count = 0
 
-# for i in range(0, num1 + 1):
-#     if i % 2 != 0:
-#         count += i
+for i in range(0, num1 + 1):
+    if i % 2 != 0:
+        count += i
 
-# print(count)
+print(count)
     
 
-# 2 დავალება
+#2 დავალება
 
-# num2 = int(input("Enter number here: "))
+num2 = int(input("Enter number here: "))
 
-# for i in range(1, num2 + 1):
-#     if num2 % i == 0:
-#         print(i)
+for i in range(1, num2 + 1):
+    if num2 % i == 0:
+        print(i)
       
 # 3 დავალება
 
@@ -28,5 +28,11 @@ while password_guess != correct_password:
 print("Correct password")
 
 
+# 4 დავალება
 
+str1 = input("enter a string: ")
+res = ""
+for i in str1:
+    res = i + res
+print(res)
 
