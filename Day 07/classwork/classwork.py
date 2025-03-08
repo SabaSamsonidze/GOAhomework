@@ -1,7 +1,8 @@
 # 1 დავალება
+name = input("Enter name here: ")
+number = int(input("Enter number here: "))
 
-
-
+print(name[number - 1])
 
 # 2 დავალება
 
