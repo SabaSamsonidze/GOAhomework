@@ -1,5 +1,3 @@
-
-
 # 1 დავალება
 
 input_string = input("Enter text here: ")
