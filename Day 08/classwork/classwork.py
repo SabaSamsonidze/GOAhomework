@@ -1,3 +1,4 @@
+
 # 1 დავალება
 
 input_string = input("Enter text here: ")
@@ -31,8 +32,6 @@ while i in word:
         else:
             print(False)
             break   
-
-
 
 
 
