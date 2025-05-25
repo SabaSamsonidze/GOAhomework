@@ -21,7 +21,7 @@ if answer == "2":
     score += 10
 else:
     print("არასწორია ❌")
-    score -= 10
+    score -= 102
 
 # კითხვა 2
 print("რა ენით იწერება ვებსაიტის სტილი?")
@@ -147,7 +147,7 @@ if answer == "3":
     score += 10
 else:
     print("არასწორია ❌")
-    score -= 5
+    score -= 10
 
 # ქულა უარყოფითი რომ არ იყოს
 if score < 0:
