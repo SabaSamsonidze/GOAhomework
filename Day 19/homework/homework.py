@@ -1,5 +1,4 @@
 # 1 დავალება
-
 def merged_list_sort(list, list1):
     merged_list = list + list1
     merged_list.sort()
@@ -10,17 +9,16 @@ new_list2 = [4, 6, 9, 10]
 print(merged_list_sort(new_list1, new_list2))
 
 
-# 2 დავალება
-
+#  დავალება
 def bigger_sum_list(list1, list2):
     sum1 = 0
     for num in list1:
         sum1 += num
-    
+
     sum2 = 0
     for num in list2:
         sum2 += num
-    
+
     if sum1 > sum2:
         return list1
     else:
@@ -32,7 +30,6 @@ res1 = bigger_sum_list(new_list3, new_list4)
 print(res1)
 
 # 3 დავალება
-
 def negative_positive(list1, list2):
     positive = 0
     negative = 0
@@ -51,13 +48,12 @@ res2 = negative_positive(list1, list2)
 print(res2)
 
 # 4 დავალება
-
 def remove_3(lst):
     list = []
     for i in lst:
         if i % 3 != 0:
             list.append(i)
-    return list        
+    return list
 
 
 new_list = [1, 3, 4, 2, 6, 9, 5]
@@ -65,7 +61,6 @@ res = remove_3(new_list)
 print(res)
 
 # 5 დავალება
-
 def multiply_list(lst):
     list = []
     for i in lst:

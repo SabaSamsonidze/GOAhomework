@@ -1,5 +1,4 @@
 # 1 დავალება
-
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
 
@@ -14,7 +13,6 @@ for i in list2:
 print(combined_list)
 
 # 2 დავალება
-
 def remove_odds(numbers):
     even_numbers = []
     for i in numbers:
@@ -26,7 +24,6 @@ nums = [5, 9, 33, 20, 21]
 print(remove_odds(nums))
 
 # 3 დავალება
-
 def join_number(number):
     result = ""
     for i in number:
@@ -34,4 +31,4 @@ def join_number(number):
     return result
 
 nums = [1, 4, 6, 21]
-print(join_number(nums))  
+print(join_number(nums))
