@@ -1,0 +1,13 @@
+#title{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtitle{
+    border: solid 3px;
+    border-radius: 8px;
+    font-style: italic;
+    font-size: 14px;
+}

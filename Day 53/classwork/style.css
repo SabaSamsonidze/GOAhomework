@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+nav a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:active {
+  color: green;
+}

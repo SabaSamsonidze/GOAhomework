@@ -1,0 +1,33 @@
+a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}

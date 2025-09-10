@@ -1,0 +1,13 @@
+.image-container {
+  display: flex;
+}
+
+.quarter {
+  width: 25%;
+  height: auto;
+}
+
+.half {
+  width: 50%;
+  height: auto;
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cossette+Titre:wght@400;700&display=swap');
+
+#p1{
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+
+#p2{
+    text-transform: uppercase;
+}
+
+#p3{
+    text-shadow: 4px 6px 10px black;
+}
+
+#p4{
+    font-family: Cossette Titre;
+}

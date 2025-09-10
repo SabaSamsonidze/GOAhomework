@@ -1,0 +1,9 @@
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(202, 202, 202);
+}
+
+.menu a:hover{
+    color: blue;
+}

@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#title{
+    margin: 10px;
+}
+
+img{
+    margin: 15px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.Main{
+    font-size: 25px;
+    margin: 20px;
+}

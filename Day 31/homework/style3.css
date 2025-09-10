@@ -1,0 +1,7 @@
+nav a {
+  color: orange;
+}
+
+nav a:hover {
+  color: blue;
+}

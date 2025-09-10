@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Priority Without !important</title>
+<style>
+    /* 1. უნივერსალური სელექტორი – ყველაზე დაბალი პრიორიტეტი */
+    * {
+      color: gray;
+    }
+    /* 2. ტიპის სელექტორი – p */
+    p {
+      color: green;
+    }
+    /* 3. კლასის სელექტორი */
+    .text {
+          color: orange; }
+
+    /* 4. ID სელექტორი – უფრო მაღალი სპეციფიკურობა */
+    #main {
+      color: red;}
+  </style>
+</head>
+<body>
+  <!-- 5. Inline სტილი – ყველაზე მაღალი სპეციფიკურობა -->
+  <p id="main" class="text" style="color: blue;">
+    ეს ტექსტი იღებს ფერს Inline სტილიდან, რადგან ყველაზე პრიორიტეტულია.
+  </p>
+</body>
+</html>

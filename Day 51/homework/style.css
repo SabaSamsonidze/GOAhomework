@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url(./porsche-911-turbo-s-black-background-amoled-pitch-black-3840x2160-7730.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center; 
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 250px;
+    border-bottom: solid 2px white;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 25px;
+}
+
+.signup{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+#p1{
+    padding: 7px;
+    border: solid 3px white;
+    border-radius: 6px;
+    margin-right: 11px;
+}
+
+#p2{
+    padding: 7px;
+    border: solid 3px white;
+    border-radius: 6px;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px);
+}
+
+#p3{
+    color: white;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 6px;
+}
+
+#p4{
+    color: white;
+    padding: 10px;
+    border: solid 2px white;
+    border-radius: 6px;
+}

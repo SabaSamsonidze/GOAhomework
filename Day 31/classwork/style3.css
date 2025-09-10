@@ -1,0 +1,8 @@
+.list1 {
+    list-style-type: upper-alpha;
+    list-style-position: outside;
+}
+.list2 {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}

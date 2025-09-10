@@ -1,0 +1,14 @@
+.main{
+    border: solid 3px;
+    border-radius: 10px;
+}
+
+.title2{
+    background-color: purple;
+    color: red;
+}
+
+#title3{
+    background-color: black;
+    color: white;
+}
